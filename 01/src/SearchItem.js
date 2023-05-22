@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const SearchItem = ({ search, setSearch }) => {
     return (
@@ -13,7 +13,7 @@ const SearchItem = ({ search, setSearch }) => {
                 onChange={(e) => setSearch(e.target.value)}
             />
         </form>
-    );
-};
+    )
+}
 
-export default SearchItem;
+export default SearchItem
