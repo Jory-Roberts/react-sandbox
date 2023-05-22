@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaTrashAlt } from 'react-icons/fa';
+import React from 'react'
+import { FaTrashAlt } from 'react-icons/fa'
 
 const Content = ({ items, handleCheck, handleDelete }) => {
     return (
@@ -35,7 +35,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
                 <p style={{ marginTop: '2rem' }}>Your list is empty.</p>
             )}
         </main>
-    );
-};
+    )
+}
 
-export default Content;
+export default Content
